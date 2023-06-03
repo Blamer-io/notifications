@@ -1,0 +1,8 @@
+spring:
+  bot:
+    base-url: http://localhost:8065
+server:
+  port: 8067
+logging:
+  level:
+    web: debug

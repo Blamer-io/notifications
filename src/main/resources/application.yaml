@@ -1,0 +1,9 @@
+server:
+  port: ${NOTIFICATIONS_PORT}
+spring:
+  rsocket:
+    server:
+      port: ${NOTIFICATIONS_RSOCKET_PORT}
+bot:
+  host: ${BOT_HOST}
+  rsocket_port: ${BOT_RSOCKET_PORT}
